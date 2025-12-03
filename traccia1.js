@@ -24,54 +24,5 @@ console.log("Il valore della variabile num2 è",num2)
 
 console.log("Il valore della variabile stringa è",stringa)
 
-console.log("Il valore della variabile PIGRACO è",PIGRECO)
-
-
-// TRACCIA 2
-
-/* Scrivi un programma che dati 5 numeri restituisca in output la somma e la media dove:
-
-Input: a = 1, b = 2, c = 3, d = 4, e = 5
-Output: La somma è X e la media e Y*/
-
-
-var a = 1
-var b = 2
-var c = 3
-var d = 4
-var e = 5
-
-var x = a + b + c + d + e
-
-var y = (a + b + c + d + e) / 5
-
-console.log("La somma dei 5 numeri ha come risultato", x)
-console.log("La media dei 5 numeri ha come risultato", y)
-
-
-
-// TRACCIA 3
-/* Scrivi un programma che dato l'anno corrente ed il tuo anno di nascita determini:
-
-l'età della persona
-quanti anni sono necessari per raggiungere i 100
-e restituisca in output entrambi i risultati.
-
-Ad esempio:
-
-input: anno corrente 2023, anno di nascita 1998
-output: hai 25 anni e ti mancano 75 anni per compierne 100*/
-
-var firstName = prompt("inserisci il tuo nome");  // otterrete una string
-var bordnDate = Number(prompt("inserisci il tuo anno di nascita nel formato 0000"));  // otterrete un number
-var currentYear = Number(prompt("inserisci l'anno corrente nel formato 0000"));  // otterrete un number
-
-var personAge = currentYear - bordnDate
-var neededYears = 100 - personAge
-
-
-
-console.log("Questa persona si chiama", firstName, ", è nata nel", bordnDate, " e quindi ha", personAge, ", siamo nel", currentYear, " e quindi le mancano ",neededYears, " per arrivare a 100 anni")
-
-
+console.log("Il valore della variabile PIGRECO è",PIGRECO)
 
