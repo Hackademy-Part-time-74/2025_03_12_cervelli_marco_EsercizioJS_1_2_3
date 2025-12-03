@@ -50,13 +50,6 @@ console.log("La media dei 5 numeri ha come risultato", y)
 
 
 
-
-
-
-
-
-
-
 // TRACCIA 3
 /* Scrivi un programma che dato l'anno corrente ed il tuo anno di nascita determini:
 
@@ -68,6 +61,17 @@ Ad esempio:
 
 input: anno corrente 2023, anno di nascita 1998
 output: hai 25 anni e ti mancano 75 anni per compierne 100*/
+
+var firstName = prompt("inserisci il tuo nome");  // otterrete una string
+var bordnDate = Number(prompt("inserisci il tuo anno di nascita nel formato 0000"));  // otterrete un number
+var currentYear = Number(prompt("inserisci l'anno corrente nel formato 0000"));  // otterrete un number
+
+var personAge = currentYear - bordnDate
+var neededYears = 100 - personAge
+
+
+
+console.log("Questa persona si chiama", firstName, ", è nata nel", bordnDate, " e quindi ha", personAge, ", siamo nel", currentYear, " e quindi le mancano ",neededYears, " per arrivare a 100 anni")
 
 
 
